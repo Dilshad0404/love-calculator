@@ -1,0 +1,44 @@
+@media (min-width:0px) and (max-width:564px){
+
+   nav a{ margin: 8px 27px 0px 23px;}
+nav h2{
+    border-top-right-radius: 0px;
+}
+#score-container{
+    margin-top: 2rem;
+height: 11rem;
+width: 70%;
+text-align: center;
+}
+#score-container h1{
+    font-size: 28px;
+}
+.work-space{
+    width: 90%;
+}
+.input input{
+    width: 45%;
+}
+footer{
+    font-size: 15px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
