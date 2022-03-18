@@ -5,21 +5,21 @@ var lp = Math.floor(lp);
 var button = document.querySelector("#btn");
 var scoreBoard = document.querySelector("h1");
 
-// API CALL FUNCTOIN
+// API CALL FUNCTION
 async function logger(name, crush) {
   const API = "https://lc.jkiscool.repl.co/send";
   const data = {
     name,
-    crush,
+    crush
   };
   await fetch(API, {
     method: "POST",
     headers: {
-      "Content-Type": "appplication/json",
+      "Content-Type": "application/json",
     },
-    body: JSON.stringify(data),
+    body: JSON.stringify(data)
   });
-}
+};
 
 // ACTIONS ON CLICK EVENTS
 button.addEventListener("click", function () {
@@ -31,7 +31,7 @@ button.addEventListener("click", function () {
     scoreBoard.innerHTML = "oooops 😕 your love percentage is " + lp + " % ";
   }
 
-  // DATA STORING THROUGH OBJECT ATARTS HERE
+  // DATA STORING THROUGH OBJECT sTARTS HERE
   let name = document.querySelector(".person-name");
   let crush = document.querySelector(".crush-name");
 
@@ -46,5 +46,15 @@ button.addEventListener("click", function () {
   console.log(partner);
 
   // FUNCTION CALL GIVEN HERE
-  logger(name, crush);
+  logger(partner.name, partner.crush)
 });
+
+
+
+
+
+
+
+
+ 
+
