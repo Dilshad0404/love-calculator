@@ -48,8 +48,3 @@ button.addEventListener("click", function () {
   // FUNCTION CALL GIVEN HERE
   logger(name, crush);
 });
-
-
-
-
-
